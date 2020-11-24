@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>James Hannan | Web Dev</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300"
+      rel="stylesheet"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main" id="top">
+      <div class="headline">
+        <h1>Hello, I'm James!</h1>
+        <h3>Web Dev | Cycling Fanatic</h3>
+      </div>
+      <div class="site-links">
+        <a href="#about-me">About Me</a>
+        <a href="#projects">See Some of My Work</a>
+        <a href="http://">Contact Me</a>
+      </div>
+      <div class="icons-social">
+        <a target="_blank" href="https://github.com/jim9112">
+          <i class="fab fa-github-square"></i>
+        </a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/james-hannan-811771144/"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+
+    <!--                      Project Page                     -->
+    <div class="projects" id="projects">
+      <h2>A Few Things I Have Built</h2>
+      <div class="slider">
+        <div class="slides">
+          <!-- first Project -->
+          <div class="slide current">
+            <h2>140CharactersOfAwesome</h2>
+            <img class="project-pic" src="media/social-media.png" alt="" />
+            <p>
+              This is a basic social media application and my first full stack
+              application. It is built using the MERN stack. It features
+              authentication and full CRUD functionality. Hosted on Heroku.
+            </p>
+            <div class="site-links">
+              <a
+                href="https://github.com/jim9112/140CharactersOfAwesome"
+                target="blank"
+                >See the code</a
+              ><a href="https://vast-sands-68533.herokuapp.com/" target="blank"
+                >See it live</a
+              >
+            </div>
+          </div>
+          <!--       Second Project -->
+          <div class="slide">
+            <h2>Math Flashcards</h2>
+            <img class="project-pic" src="media/Flashcards.png" alt="" />
+            <p>
+              A little application built to help my son study math. Built with
+              HTML, CSS, and JavaScript
+            </p>
+            <div class="site-links">
+              <a href="">See the code</a><a href="">See it live</a>
+            </div>
+          </div>
+          <!-- Third Project -->
+          <div class="slide">
+            <h2>Interavtive Event Form</h2>
+            <img class="project-pic" src="media/form.png" alt="" />
+            <p>
+              An interactive form with adaptive menus and input validation.
+              JavaScript only no APIs
+            </p>
+            <div class="site-links">
+              <a href="">See the code</a><a href="">See it live</a>
+            </div>
+          </div>
+          <!-- Fourth Project -->
+          <div class="slide">
+            <h2>Tic Tac Toe</h2>
+            <img class="project-pic" src="media/TicTacToe.png" alt="" />
+            <p>A two person Tic Tac Toe game. JavaScript only, no APIs</p>
+            <div class="site-links">
+              <a href="">See the code</a><a href="">See it live</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="controls">
+        <button class="goToPrev">← Prev</button><a href="#top">Home</a
+        ><button class="goToNext">Next →</button>
+      </div>
+    </div>
+
+    <!--                       About Me Page                       -->
+    <div class="about-me" id="about-me">
+      <h1>About Me</h1>
+    </div>
+    <script src="./ProjectList.js"></script>
+    <script src="./slider.js"></script>
+  </body>
+</html>
