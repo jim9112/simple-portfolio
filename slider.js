@@ -24,7 +24,6 @@ function Slider(slider) {
   };
 
   const move = (direction, stuff) => {
-    console.log(slides);
     const classesToRemove = ['prev', 'current', 'next'];
     previous.classList.remove(...classesToRemove);
     current.classList.remove(...classesToRemove);
